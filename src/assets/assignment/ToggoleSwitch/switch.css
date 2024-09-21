@@ -1,0 +1,35 @@
+.mainDiv{
+    background: rgb(209, 207, 207);
+    color: white;
+    width: 300px;
+    align-self: center;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border-radius: 70px;
+    padding: 23px 20px;
+}
+
+.TogoleSwitch{
+    background: rgb(220, 219, 219);
+    width: 80px;
+    padding: 22px 15px;
+    border-radius: 100%;
+    border: 5px solid rgb(189, 186, 186);
+    transition: ease 0.75s;
+}
+
+
+span{
+    font-size: 53px;
+}
+
+.on{
+    background: #14cb14;
+    transform: translateX(0px);
+}
+
+.off{
+    background: #ff0000;
+    transform: translateX(187.5px);
+}
